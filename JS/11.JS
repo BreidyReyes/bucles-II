@@ -1,6 +1,16 @@
-const numero1 = prompt("ingrese un numero del 1 a 100");
-const numero2 = prompt("ingrseo igualmente un nuemro del 1 a el 100");;
+// Completa el siguiente programa e imprime la
+// cantidad de unos (1) que haya en el arreglo:
+// const nums = [ 1, 0, 1, 1, 1, 0, 0, 1,
+// 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, 1 ];
 
-let total = numero1 + numero2;
+const nums = [1, 0, 1, 1, 1, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, 1];
+let i = 0;
+let suma = 0;
 
-console.log( total )
+
+while (i < nums.length) {
+    suma = suma + nums[i]
+    i++
+}
+
+console.log(`la suma de todo es: ${suma}`);
